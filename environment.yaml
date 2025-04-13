@@ -1,0 +1,10 @@
+name: my-qt-month-scheduler
+channels:
+  - conda-forge
+  - pkgs/main
+dependencies:
+  - pyqt
+  - python=3.12
+  - weasyprint
+  - pip:
+    - pytest==8.3.5
